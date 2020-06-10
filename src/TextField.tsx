@@ -1,10 +1,10 @@
 import React from "react";
 
-interface Props{
-    text: string;
-}
+// interface Props{
+//     text: string;
+// }
 
-export const TextField: React.FC<Props> = () => {
+export const TextField: React.FC<{text: string}> = () => {
     return(
         <div>
             <input></input>
