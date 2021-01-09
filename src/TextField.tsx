@@ -7,7 +7,7 @@ import React from "react";
 export const TextField: React.FC<{text: string}> = () => {
     return(
         <div>
-            <input></input>
+            <input>What to enter right now</input>
         </div>
     )
 }
